@@ -1,7 +1,6 @@
 <template>
-  <main class="min-h-screen flex gap justify-between gap-8 py-8 px-[10vw]">
-    <div class="flex flex-col w-full">
-      <p>{{ search }}</p>
+  <main class="min-h-screen flex gap justify-between gap-6 py-8 px-[10vw]">
+    <div class="flex flex-col w-full gap-20">
       <SearchBar
         :handleSearch="handleSearch"
       />
